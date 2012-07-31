@@ -1,0 +1,89 @@
+/* 
+    Document   : navigation
+    Created on : 13.04.2012, 13:18:32
+    Author     : Kevin
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+#main-navigation {
+    font-size:1.15em;
+    text-transform: uppercase;
+    width:89%;
+}
+
+#navigation a {
+   color: #878787;
+   text-decoration: none;
+   display:block;
+}
+
+#navigation li.active a, #navigation a:hover, #navigation a:focus {
+    color: #18252c;
+}
+
+#main-navigation>ul {
+    padding-left: 1.3em;
+    margin-top: 1.8em;
+}
+
+#main-navigation ul > li {
+    font-family: 'Open Sans Bold', sans-serif;
+    font-weight:bold;
+    border-bottom: 0.1em solid #878787;
+    padding-bottom:0.3em;
+    margin-bottom: 0.3em;
+}
+
+#main-navigation ul li.active, 
+#main-navigation ul li:hover, 
+#main-navigation ul li:focus {
+    border-bottom-color:#18252c;
+} 
+
+#main-navigation ul li ul {
+    margin:.4em 0 0 0;
+    padding:0;
+}
+
+#main-navigation ul li ul li {
+    font-family: 'Open Sans', sans-serif;
+    font-weight:normal;
+    font-size:0.75em;
+    border-bottom:none;
+}
+
+#social-navigation {
+    position: absolute;
+    top: 2.3em;
+    left: 1.9em;
+}
+
+#social-navigation ul {
+    margin:0;
+    padding:0;
+}
+#social-navigation li {
+    display:inline;
+    margin-right:0.9em;
+}
+
+#service-navigation {
+    font-size:0.75em;
+    position:fixed;
+    bottom:1em;
+}
+
+#service-navigation a {
+    color:#383838;
+}
+
+#service-navigation a:hover, 
+#service-navigation a.active
+{
+    color:#878787;
+}
+
+#service-navigation ul {
+    padding-left:2em;
+}

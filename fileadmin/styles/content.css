@@ -1,0 +1,288 @@
+/* 
+    Document   : content
+    Created on : 13.04.2012, 12:47:56
+    Author     : Kevin
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+#content ul {
+    list-style: none;
+    padding:0;
+    margin:1em 0 2em;
+}
+
+#content ul li {
+    background: url(../images/ico-list.png) 0 0.6em no-repeat;
+    padding-left:1em;
+}
+
+#content ul.reference-list, #content ul.costumer-list {
+    overflow: hidden;
+}
+
+#content ul.reference-list li, #content ul.costumer-list li {
+    background: none;
+    padding:0;
+    margin:0 8px 5px 0;
+    float:left;
+    width: 270px;
+}
+
+#content ul.reference-list li.last, #content ul.costumer-list li.last {
+    margin:0;
+}
+
+* html #content ul.reference-list li {
+    margin:0 .5em 1em 0;
+}
+
+#content header {
+    position:relative;
+    padding-top:2em;
+    top:-2em;
+    overflow-y: hidden; 
+    overflow-x: hidden;
+}
+
+#kids {
+    position: absolute;
+    z-index:3;
+    bottom:-23em;
+    right:3em;
+}
+
+.box {
+    background:#e8e8e8;
+    padding:.6em 1em .1em;
+}
+.columns {
+    overflow:hidden;
+}
+
+.column {
+    float:left;
+}
+
+.column-wide {
+    width:41.8em;
+    padding-right:1.4em;
+}
+
+.column-small {
+    width:20.7em;
+}
+
+.column-extrasmall {
+    width:20.6em;
+    margin-right: 1em;
+}
+
+.last {
+    padding:0 !important;
+    margin:0 !important;
+}
+
+.back-link {
+    position: absolute;
+    top:1.3em;
+    right:0;
+}
+
+.close-information {
+    padding-top:1em;
+}
+
+/*NEWS*/
+
+.news {
+    overflow:hidden;
+    text-overflow: ellipsis;
+    border-bottom: 1px solid #cecece;
+}
+
+.news figure {
+    float:right;
+    margin:0 0 1em 1em;
+}
+
+.news-content {
+    padding-right:22em;
+}
+
+.date {
+    margin:0;
+    font-size:0.85em;
+    font-family: 'Open Sans', sans-serif;
+    font-weight:normal;
+}
+
+.news-head {
+    margin:0 0 1em;
+}
+
+.news-head h3 {
+    margin:0;
+    font-weight: bold;
+    font-family: 'Open Sans Bold', sans-serif;
+}
+
+/*REFERENZ DETAIL*/
+
+.reference-description {
+    position: absolute;
+    top: 40%;
+    z-index: 2;
+    text-align: center;
+    margin: 0 auto;
+    width: 130px;
+    height: 39%;
+    color: white;
+    display: none;
+    left: 26%;
+    font-size:0.95em;
+}
+
+.reference-description h4 {
+    font-weight:bold;
+    margin: 0;
+}
+.reference-description p {
+    font-size: 0.9em;
+}
+
+.web {
+}
+.illustration {
+}
+
+a.reference {
+    display:block;
+    position: relative;
+    height:170px;
+}
+
+a.reference img {
+    position: absolute;
+    top:0;
+    left:0;
+}
+
+/*a.reference:hover .reference-description {
+    display:block;
+}*/
+
+section#stage {
+    margin-bottom: 1.5em;
+    position:relative;
+    overflow:hidden;
+    min-height:479px;
+    margin-top:2em;
+/*    display:none;*/
+}
+header#stage {
+    width:64em;
+}
+header#stage img {
+    position:relative;
+    left:-3px;
+}
+
+.references img {
+    display:none;
+    position:absolute;
+    top:0;
+    left:0;
+    z-index:1;
+}
+.references img:first-child {
+    display:block;
+}
+
+.button-link {
+    color:#fff;
+    background: #9a0052;
+    padding: 0.5em 1em;
+}
+
+.further-information-link {
+    position:absolute;
+    bottom:0.1em;
+    right:2em;
+    z-index:2;
+}
+
+#reference-detail-navigation {
+    position: absolute;
+    top:1em;
+    left:0;
+    text-align:center;
+    width: 63.9em;
+    height:1em;
+    z-index:2;
+}
+#reference-detail-navigation a {
+    margin-right:0.3em
+}
+
+.previous {
+    position:absolute;
+    top:14em;
+    left:1em;
+    z-index:2;
+}
+
+.next {
+    position: absolute;
+    right:1em;
+    top:14em;
+    z-index:2;
+}
+
+#further-information {
+    width:63.85em;
+    z-index:2;
+    position: absolute;
+    top:0;
+    left:0;
+    display:none;
+}
+
+#further-information article {
+    color:#fff;
+    background: transparent url(../images/content-bg-black.png) 0 0 repeat;
+    width:40em;
+    position:relative;
+    margin:0 auto;
+    padding:2em;
+}
+
+.close-information {
+    display:block;
+    text-align: center;
+}
+.close-information img {
+    position: relative;
+    top:4px;
+}
+.close-information hr {
+    border:0;
+    margin:0 0 0.5em;
+    border-top:0.1em solid #fff;
+}
+.close-information span {
+    color:#fff;
+    font-size:0.8em;
+}
+
+.hidden {
+    display:none;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+#issuu-link {
+    display:none;
+}

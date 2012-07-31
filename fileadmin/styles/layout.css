@@ -1,0 +1,146 @@
+/* 
+    Document   : layout.css
+    Created on : 13.04.2012, 11:27:02
+    Author     : Kevin Purrmann
+    Description:
+        Purpose of the stylesheet follows.
+*/
+html, body {
+    margin:0; 
+    padding:0;
+}
+
+html { 
+    display: block;
+    height:100%;
+}
+
+body {
+    font-size:62.5%;
+    font-family: 'Open Sans', sans-serif;
+    background: transparent;
+}
+
+#page {
+    position: relative;
+/*    width:108.5em;*/
+    margin:0;
+    min-height:50em;
+    color:#383838;
+}
+
+#page-header {
+    position: fixed;
+    top: 0;
+    z-index: 30;
+    background: white;
+    width: 100%;
+    height:17.7em;
+}
+
+#page-header h1 {
+    width:10.9em;
+    position:absolute;
+    left: 26.3em;
+    top: 1.2em;
+}
+
+#content-wrap {
+    position:relative;
+    overflow:hidden;
+    font-size:1.3em;
+    background: url('../images/content-wrap-bg.png') 0 0 repeat-y;
+    margin-top:13.7em;
+}
+
+#lightbox {
+    font-size:1.3em;
+    padding: 1em;
+}
+
+#content-holder {
+    width: 63.9em;
+    padding: 2.3em 0 3em 17em;
+}
+
+#load {
+    min-width: 63.9em;
+    position:relative;
+}
+
+#content-shadow {
+    position:fixed;
+    z-index:2;
+    top:13.6em;
+    left:0;
+    background: url('../images/content-shadow.png') left -0.8em no-repeat;
+    width:100%;
+    height:1.5em;
+}
+
+#navigation {
+    width:14.9em;
+    position:fixed;
+    min-height:30em;
+    float:left;
+}
+
+#content {
+    background: url('../images/content-bg.png') 0 0 repeat;
+/*    min-height:39em;*/
+    overflow:hidden;
+}
+
+
+h1, h2, h3, h4, h5, h6 {
+    margin-top:0;
+    font-weight:bold;
+    font-family: 'Open Sans Bold', sans-serif;
+    text-transform: uppercase;
+    line-height:1.2em;
+}
+
+h1 {
+/*    font-size:1em;*/
+}
+
+h2 {
+    font-size:1.25em;
+    margin-bottom: 1.6em;
+}
+hgroup h2 {
+    margin:0;
+}
+
+hgroup h3 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight:normal;
+}
+
+h3 {
+    font-size:1em;
+    margin:0 0 0.3em;
+}
+
+h4 { margin-bottom: 0.3em;
+    font-size:0.9em;
+    text-transform: none;}
+
+article {
+    margin-bottom: 1.5em;
+}
+
+b, strong {
+    font-weight:bold;
+    font-family: 'Open Sans Bold', sans-serif;
+}
+
+p {
+    margin-top:0;
+    margin-bottom:1em;
+}
+
+a {
+    color:#9a0052;
+    text-decoration: none;
+}

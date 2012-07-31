@@ -1,0 +1,41 @@
+/* 
+    Document   : mobile
+    Created on : 07.06.2012, 16:01:51
+    Author     : Kevin
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+body {
+    width:100%;
+    padding: 1em 0 0;
+    margin:0 auto;
+    background: #fff;
+}
+
+p {
+    font-size:1.6em;
+}
+
+header {
+    margin:0 0 2em;
+    text-align:center;
+}
+footer {
+    text-align: center;
+    padding: 1em 0;
+}
+
+header img {
+    
+}
+
+#content {
+    background: url(../images/mobile-bg.jpg);
+    padding: 3em 1em 3em 1em;
+}
+
+#social-navigation ul li {
+    display:inline;
+    margin:0 1em 0 0;
+}
