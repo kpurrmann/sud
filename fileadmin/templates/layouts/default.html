@@ -1,0 +1,18 @@
+<f:if condition="{data.uid} == 1">
+    <f:then>
+        <section id="page" class="start">
+    </f:then>
+    <f:else>
+        <section id="page">
+    </f:else>
+</f:if>
+    <header id="page-header">
+        <f:cObject typoscriptObjectPath="lib.socialnavigation" />
+        <f:render partial="logo" />
+    </header>
+    <div id="content-wrap">
+        <div id="content-shadow">&nbsp;</div>
+        <f:render partial="navigation" />
+        <f:render section="content" />
+    </div>
+</section>

@@ -1,0 +1,23 @@
+<f:layout name="default" />
+<f:section name="content">
+  <section id="content">
+      <div id="content-holder">
+          <div id="load">
+            <f:if condition="{data.uid} == 3">
+                <f:then>
+                    <f:format.html parseFuncTSPath="">{three_columns}</f:format.html> 
+                    <f:format.html parseFuncTSPath="">{content}</f:format.html> 
+                    <f:format.html parseFuncTSPath="">{two_columns}</f:format.html> 
+                    <f:format.html parseFuncTSPath="">{two_cols_left_small}</f:format.html> 
+                </f:then>
+                <f:else>
+                    <f:format.html parseFuncTSPath="">{content}</f:format.html> 
+                    <f:format.html parseFuncTSPath="">{two_columns}</f:format.html> 
+                    <f:format.html parseFuncTSPath="">{three_columns}</f:format.html> 
+                    <f:format.html parseFuncTSPath="">{two_cols_left_small}</f:format.html> 
+                </f:else>
+            </f:if>
+          </div>
+      </div>
+  </section>
+</f:section>

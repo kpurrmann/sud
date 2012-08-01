@@ -1,0 +1,42 @@
+<f:layout name="default" />
+<f:section name="content">
+  <section id="content">
+      <div id="content-holder">
+          <div id="load">
+              <article class="columns">
+                    <hgroup>
+                        <f:cObject typoscriptObjectPath="lib.pagetitle" />
+                    </hgroup>
+                  
+                   <f:cObject typoscriptObjectPath="lib.backlink" />
+<!--                    <a href="page-referenzen.html" class="back-link">
+                        <img src="fileadmin/images/ico-all-reference.png" alt="Übersichtsbild" class="imghover">
+                    </a>-->
+                    <section id="stage">
+                        <nav id="reference-detail-navigation">
+                        </nav>
+                        <a class="previous" href="#previos" title="Vorheriges Bild"><img src="fileadmin/images/ico-arrow-left.png" alt="Linker Pfeil"></a>
+                        <a class="next" href="#next" title="Nächstes Bild"><img src="fileadmin/images/ico-arrow-right.png" alt="Rechter Pfeil"></a>
+                        <section id="further-information">
+                            <article>
+                                <f:format.html parseFuncTSPath="">{reference_information}</f:format.html> 
+                                <a href="#close-information" class="close-information" title="Informationen schließen">
+                                    <img src="fileadmin/images/ico-close-information.png" alt="Informationsicon schließen">
+                                    <hr>
+                                    <span class="uppercase">Schließen</span>
+                                </a>
+                            </article>
+                        </section>
+                        <div class="references">
+                            <f:format.html parseFuncTSPath="">{reference_images}</f:format.html> 
+                        </div>
+                        <a href="#weitere-informationen" class="button-link further-information-link" title="Weitere Informationen anzeigen">
+                            Weitere Informationen
+                        </a>
+                    </section>
+                </article>
+                <f:cObject typoscriptObjectPath="lib.other_projects" />
+          </div>
+      </div>
+  </section>
+</f:section>
